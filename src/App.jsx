@@ -1,5 +1,5 @@
-import React , { useState } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import React, { useState } from 'react'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import Teams from './pages/Team'
@@ -10,38 +10,41 @@ import IntroCover from './components/IntroCover'
 import ScrollToTop from './ScrollToTop'
 
 const App = () => {
-  const [start, setStart] = useState(false);
+  const location = useLocation();
+  // Only show the intro cover when landing on the home route
+  const isHome = location.pathname === '/';
+  const [start, setStart] = useState(!isHome); // skip intro for non-home routes
   return (
-<div
-  className="relative text-white min-h-screen bg-cover bg-center bg-black"
->
+    <div
+      className="relative text-white min-h-screen bg-cover bg-center bg-black"
+    >
 
 
-  {/* Content */}
-  
-  <div className="relative z-10">
-   
-  </div>
-  {!start && <IntroCover onFinish={() => setStart(true)} />}
+      {/* Content */}
 
-{start && (
-  <>
-    <ScrollToTop />   {/* ⭐ ADD HERE */}
+      <div className="relative z-10">
 
-    <Navbar />
+      </div>
+      {!start && <IntroCover onFinish={() => setStart(true)} />}
 
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/teams" element={<Teams />} />
-      <Route path="/events" element={<Events />} />
-      <Route path="/contact" element={<ContactUs />} />
-    </Routes>
+      {start && (
+        <>
+          <ScrollToTop />   {/* ⭐ ADD HERE */}
 
-    <Footer />
-  </>
-)}
+          <Navbar />
 
-</div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/teams" element={<Teams />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/contact" element={<ContactUs />} />
+          </Routes>
+
+          <Footer />
+        </>
+      )}
+
+    </div>
 
   )
 }

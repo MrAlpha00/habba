@@ -26,7 +26,7 @@ const Navbar = () => {
 
   // Lock scroll when mobile menu opens
   useEffect(() => {
-    document.body.style.overflow = open ? "hidden" : "auto";
+    document.body.style.overflow = open ? "hidden" : "";
   }, [open]);
 
   // Scroll glass effect
