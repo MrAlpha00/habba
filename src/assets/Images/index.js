@@ -10,9 +10,9 @@ import gallery9 from "./allphoto/pho9.webp"
 import gallery10 from "./allphoto/pho10.webp"
 import gallery11 from "./background/cntbg.webp"
 import gallery12 from "./background/tembg.webp"
-import HabbaLogo from "./logo/tplogo.png"
-import AcharyaLOGO from './logo/acharyalogo.png'
-import WHabba from './logo/Habba White Logo.png'
+import HabbaLogo from "./logo/tplogo.webp"
+import AcharyaLOGO from './logo/acharyalogo.webp'
+import WHabba from './logo/Habba White Logo.webp'
 import gpic from '../Images/background/grp.webp'
 import event1 from '../Images/background/event1.webp'
 import event2 from '../Images/background/event2.webp'
@@ -37,7 +37,7 @@ import ma2 from '../Images/hero/MA2.webp'
 import mv from '../Images/hero/MV.webp'
 import mt from '../Images/hero/MT.webp'
 import mu from '../Images/hero/MU.webp'
-import avl from '../Images/logo/avl.png'
+import avl from '../Images/logo/avl.webp'
 import apl from '../Images/apl.webp'
 import vtu from '../Images/vtu.webp'
 import abtvtu from '../Images/background/abtvtu.webp'
