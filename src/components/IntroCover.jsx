@@ -7,7 +7,7 @@ const IntroCover = ({ onFinish }) => {
     const timer = setTimeout(() => {
       setHide(true);
       setTimeout(onFinish, 800);
-    }, 2000);
+    }, 2500);
 
     return () => clearTimeout(timer);
   }, [onFinish]);
