@@ -1,4 +1,3 @@
-import { VIDEOS } from "./assets/Videos/index";
 import {IMAGES} from "./assets/Images/index"
 
 export const LINK={

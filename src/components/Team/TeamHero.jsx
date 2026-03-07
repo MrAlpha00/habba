@@ -8,6 +8,7 @@ const TeamHero = () => {
       
       {/* Background Image */}
       <img
+        loading='lazy'
         src={IMAGES.GPIC}
         alt="background"
         className='absolute inset-0 w-full h-full object-cover opacity-40'

@@ -1,6 +1,5 @@
 import { IMAGES } from "../../assets/Images";
 import AnimatedContent from "../gsap/AnimatedContent";
-import LogoSlider from "../lightswind/sliding-logo-marquee";
 import TeamCarousel from "../lightswind/team-carousel";
 
 

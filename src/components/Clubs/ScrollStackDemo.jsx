@@ -1,7 +1,6 @@
 import React from "react";
 import ScrollStack from "../lightswind/scroll-stack";
 import { IMAGES } from "../../assets/Images";
-import { VIDEOS } from "../../assets/Videos";
 
 
 

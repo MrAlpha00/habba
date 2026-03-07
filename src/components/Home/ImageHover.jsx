@@ -1,5 +1,4 @@
 import { IMAGES } from "../../assets/Images/index";
-import { VIDEOS } from "../../assets/Videos/index";
 import MediaHoverExpand from "../motion/MediaHoverExpand";
 
 const items = [
