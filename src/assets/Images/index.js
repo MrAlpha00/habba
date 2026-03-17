@@ -44,6 +44,14 @@ import abtvtu from '../Images/background/abtvtu.webp'
 import abthb1 from '../Images/background/abthb1.webp'
 import abthb2 from '../Images/background/abthb2.webp'
 
+//team
+import tejas from '../Images/team/faculty/tejas.webp'
+import shalini from '../Images/team/faculty/shalini.webp'
+import premnath from '../Images/team/faculty/premnath.webp'
+import krishna from '../Images/team/faculty/krishna.webp'
+import visesh from '../Images/team/faculty/visesh.webp'
+import random from '../Images/team/random.jpg'
+
 export const IMAGES = {
   // BACKGROUND:Background,
   GALLERY1:gallery1,
@@ -90,5 +98,11 @@ export const IMAGES = {
   ABTVU:abtvtu,
   ABTHB1:abthb1,
   ABTHB2:abthb2,
+  PREMNATH:premnath,
+  SHALINI:shalini,
+  KRISHNA:krishna,
+  VISESH:visesh,
+  TEJAS:tejas,
+  RANDOM:random,
 };
   

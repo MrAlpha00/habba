@@ -62,7 +62,7 @@ const CardGrid = ({ cards }) => {
             />
           </div>
 
-          <h3 className="mt-3 text-center font-semibold text-white">
+          <h3 className="mt-3 text-center text-xl font-semibold text-white">
             {card.title}
           </h3>
           <p className="text-center text-sm text-white/60">
