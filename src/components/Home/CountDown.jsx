@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import APLCards from "./APLCards";
 
 const CountDown = () => {
-  const TARGET_DATE = new Date("2026-03-11T00:00:00");
+  const TARGET_DATE = new Date("2026-04-11T00:00:00");
 
   const getTimeLeft = () => {
     const diff = TARGET_DATE.getTime() - Date.now();

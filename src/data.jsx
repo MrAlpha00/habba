@@ -88,6 +88,11 @@ export const TEAM = {
         description: "Habba Head",
         src: IMAGES.RANDOM,
       },
+      {
+        title: "Shivang",
+        description: "Finance Head",
+        src: IMAGES.RANDOM,
+      },
     ],
   };
   
@@ -98,5 +103,11 @@ export const EVENTS = [
       image: IMAGES.RANDOM,
       registrationLink: "https://example.com/register",
       events: ["Kitchen Mayhem","Lagori","Tug Of War","Boxing","Buckshot Roulette","Heist Havoc","Mr. and Ms. Ethnic"],
+    },
+    {
+      name: "Sahitya Club",
+      image: IMAGES.RANDOM,
+      registrationLink: "https://example.com/register",
+      events: ["Kaun Banega Crorepati?","Bollywood Gala","Kavi Sangram","Kavi Sangram","Standup Comedy"],
     },
   ];
